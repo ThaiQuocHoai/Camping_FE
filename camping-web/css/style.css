@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    background-color: #faf4f2;
+} 
+.header{
+    background-color: #f8e1db;
+    padding: 20px 0;
+}
+
+.header ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.header ul li {
+    display: inline;
+    margin-right: 2%;
+}
+.header{
+    font-size: 20px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header img{
+    margin-left: 3%;
+}
+.carosell{
+    background-image: url('./../images/BG.png');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.service-item{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.clear-both{
+    clear: both;
+}
+
+.service-item .text{
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    height: 200px;
+}
+#service{
+    margin-top: -150px;
+}
+
+#activity{
+    padding-top: 90px;
+}
+
+#activity .activity-title{
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+}
+
+#activity .activity-title h1{
+    margin: 0;
+}
+
+#activity .activity-item{
+    float: left;
+    width: 25%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#activity .activity-item img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+#activity .activity-text{
+    background-color: white;
+    text-align: center;
+    padding: 45px 30px;
+    border-radius: 30px;
+}
+
+#activity .activity-item i{
+    color: pink;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 13px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#activity .activity-item button{
+    padding: 10px 40px;
+    border-radius: 35px;
+    border: none;
+    font-size: 20px;
+    color: gray;
+}
+
+#activity .activity-item p{
+    color: gray;
+}
+
+#activity .activity-image{
+    
+    position: relative;
+}
+
+#activity .post-button button{
+    border: 1px solid #e76f51;
+    padding: 15px 70px;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #e76f51;
+    background-color: #faf4f2;
+}
+#activity .post-button{
+    text-align: center;
+}
+
+#event{
+    margin-top: 20px;
+    background-color: #f8e1db;
+    height: 400px;
+    width: 100%;
+    float: left;
+    display: flex;
+    border-radius: 20px;
+}
+#event .event-image{
+    width: 50%;
+    margin: 0;
+}
+
+#event .event-image #mask{
+    width: 50%;
+    height: 400px;
+    position: relative;
+    border-radius: 20px;
+}
+#event .event-image #img{
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    border-radius: 20px;
+    left: 50px;
+}
+
+#event .event-text{
+    color: gray;
+    width: 50%;
+    margin: 0;
+    padding: 50px 0px;
+    margin-left: 120px;
+}
+
+#event .event-text .total{
+    float: left;
+    width: 100%;
+    display: flex;
+}
+
+#event .event-text .total .text-app{
+    width: 50%;
+}
+
+#event .event-text .total .text-icon{
+    width: 50%;
+}
+
+#event .event-text .total .text-app .text-logo{
+    width: 100%;
+}
+#event .event-text .total .text-app .text-logo img{
+    width: 45%;
+    padding-right: 5px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#event .event-text .total .text-icon .text-ic{
+    width: 50%;
+}
+#event .event-text .total .text-icon .text-ic i{
+    width: 20%;
+    padding-right: 5px;
+    float: left;
+    box-sizing: border-box;
+    color: #e76f51;
+    font-size: 24px;
+}
+
+#footer{
+    background-color: #f8e1db;
+    height: 150px;
+    margin-top: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 100px 40px;
+    color: rgb(68, 2, 2);
+    float: left;
+    display: flex;
+}
+
+#footer .foot-left{
+    width: 40%;
+    height: 200px;
+}
+
+#footer .foot-left p{
+    line-height: 30px;
+    
+}
+
+#footer .foot-right{
+    width: 60%;
+    float: left;
+    display: flex;
+    height: 200px;
+    
+}
+#footer .foot-right .foot-right-inside{
+    width: 33%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    height: 200px;
+
+}
+
+.override{
+    text-align: center;
+    background-color: #f8e1db;
+    margin: 0;
+    height: 90px;
+}
+
+.override p{
+    margin: 0;
+}
